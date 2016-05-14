@@ -1,0 +1,23 @@
+{
+  "name": "gg-logger",
+  "version": "1.0.0",
+  "description": "Grayscale Games Simple Logger",
+  "license": "ISC",
+  "author": "Matthew Douglass <matthew@douglass.email>",
+  "homepage": "https://github.com/mdouglass/gg-logger",
+  "repository": "mdouglass/gg-logger",
+  "bugs": "https://github.com/mdouglass/gg-logger/issues",
+  "main": "logger.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "true",
+    "prepublish": "npm run lint && npm run test"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "2.10.0",
+    "eslint-config-gg": "1.0.0"
+  }
+}

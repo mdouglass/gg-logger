@@ -17,7 +17,7 @@
     "colors": "^1.1.2"
   },
   "devDependencies": {
-    "eslint": "2.10.0",
+    "eslint": "2.10.1",
     "eslint-config-gg": "1.0.0"
   }
 }
